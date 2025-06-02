@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/postres',
-  trailingSlash: true
+  images: {
+    unoptimized: true
+  },
+  basePath: "/PostresPL",
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
